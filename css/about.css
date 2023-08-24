@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #27374d;
+  --secondary-color: #ffffff;
+  --email-link-color: #4477ce;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font: "Playfair Display", serif;
+}
+
+body {
+  margin: 0 auto;
+  font-family: var(--font);
+}
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+.bg-brown {
+  background-color: #526d82;
+}
+.navbar-nav .nav-item .active {
+  color: var(--secondary-color);
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+  margin-top: 25px;
+  margin-bottom: 19px;
+}
+#contact h2 {
+  font-size: 80px;
+  margin-top: 30px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+p {
+  margin: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.contact a {
+  display: block;
+  text-align: center;
+  color: var(--email-link-color);
+  margin-bottom: 20px;
+}
+.contact a {
+  text-decoration: none;
+  font-size: 28px;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.about-paragraph {
+  margin: 30px;
+}
